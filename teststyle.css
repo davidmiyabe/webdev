@@ -1,0 +1,23 @@
+.black {
+	border-style: solid;
+	border-color: black;
+	border-width: 10px;
+	width: 500px;
+	height: 500px;
+	left: 800px;
+	top: 300px;
+	position: relative;
+}
+.black {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	align-content: flex-start;
+	padding: 30px;
+}
+.black p {
+	color: purple;
+	font-size: 30px;
+	font-family: helvetica; 
+}

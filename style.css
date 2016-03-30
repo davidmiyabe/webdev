@@ -1,0 +1,102 @@
+body {
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 40px;
+	font-family: tahoma;
+}
+td {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 2px;
+	color: #ffffff;
+	font-size: 12px;
+}
+ul {
+	list-style-type: none;
+	line-height: 2.5em;
+}
+h2{
+	margin-bottom: -10px;
+}
+
+.topbar {
+	background-color: #2d0d53;
+	padding: 0px;
+	width: 100%;
+	height: 22px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.head {
+	background-color: black;
+	padding: 0px;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.logo {
+	padding: 0px;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+.logo img {
+	height: 100%;
+}
+.searchbar {
+	background-color: #ff4499;
+	width: 50%;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+.leftnav {
+	padding: 0px;
+	margin: 0px;
+	height: 50px;
+	width: 15%;
+	position: relative;
+	float: left
+}
+.main {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	width: 50%;
+	position: relative;
+	float: left;
+}
+.mainCaption {
+	color: #ffffff;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	position: absolute;
+	top: 210;
+	left: 0;
+}
+.mainSubImg {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+
+.mainSubImg img {
+	width: 23%; 
+	height: 50%;
+}
+
+.rightcolumn {
+	background-color: yellow;
+	padding: 0px;
+	margin-left: 0px;
+	width: 30%;
+	height: 900px;
+	position: relative;
+	float: left;
+}
